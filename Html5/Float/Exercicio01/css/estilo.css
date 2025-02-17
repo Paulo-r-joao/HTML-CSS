@@ -1,0 +1,38 @@
+body {
+    margin: 30;
+    padding: 30;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    float: left;
+    background-color: rgb(207, 192, 173);
+}
+
+.image-container {
+    float: left;
+    margin: 50px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin:auto;
+    float: left;
+    margin-left: 11px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text-container {
+    text-align: justify;
+    width: 180px;
+    padding: 10px;
+    margin: auto;
+    font-size:larger;
+    margin-right: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}

@@ -1,0 +1,87 @@
+    /*Para comentários no CSS*/
+    /*Estilizaçao por ID
+      Usar # em id somente*/
+      #titulo{
+        text-align: center;
+        color:rgb(70, 33, 4) ;
+        font-size: 50px;
+    }
+    /*Estilização por CLASS
+      Para CLASS usar . "ponto" no inico*/
+    .primparagrafo{
+        color: rgb(214, 138, 76);
+        /*Width - Largura*/
+        width: 300px;
+        /*border - Aplica uma borda em volra
+          solid - Estilo da borda
+          black - Cor da borda
+          */
+        border: 2px solid rgb(0, 0, 0);
+        /*padding - Para colocar um afastamento no texto*/
+        padding: 5px;
+    }
+    .segparagrafo{
+        color: rgb(70, 33, 4);
+        font-size: 15px;
+        /*text-aling - Para alinhar texto*/
+        text-align: center;
+        /*background-color - Para colocar uma cor de fundo*/
+        background-color: bisque;
+        /*margin-top - Para colocar uma distancia da margem superior*/
+        margin-top: 40px;
+    }
+    .terparagrafo{
+        color: rgb(70, 33, 4);
+        font-size: 30px;
+        background-color: bisque;
+        text-align: center;
+        /*margin-left - Distancia da margem na esquerda*/
+        margin-left: 20px;
+    }
+    /*Estilização por SELETOR*/
+    h1{
+       text-align: center;
+       font-weight: 100px;
+       font-size: 50px;
+       color: rgb(70, 33, 4);
+    }
+    h2{
+       text-align: center;
+       font-size: 30px;
+       color: rgb(70, 33, 4); 
+    }
+    .box{
+       width: 200px;
+       /*height - Altura*/
+       height: 100px;
+       background-color: bisque;
+       color: rgb(70, 33, 4);
+       /*margin-bottom - Distancia da margem inferior*/
+       margin-bottom: 5px;
+       /*border-radius - Para aredondar as bordas*/
+       border-radius: 20px;
+       padding: 10px;
+       margin-left: 7px; 
+    }
+    .container{
+       width: 1580px;
+       /*display: flex - */
+       display: flex;
+       justify-content: center; 
+    }
+    /*hover - Para colocar um efeito no texto quando mouse estiver sobre ele*/
+    .box:hover{
+        background-color: rgb(85, 63, 47);
+        color: white;
+        /*border - Para colcoar borda
+          solid - Para escolher a cor*/
+        border:3px solid rgb(214, 138, 76);
+        width: 300px;
+        text-align: center;
+        padding-top: 18px;
+    }
+    p{
+        font-size: 20px;
+        text-align: justify;
+        color: rgb(70, 33, 4);
+    }

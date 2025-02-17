@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(247, 247, 247);
+}
+fieldset{
+    background-color: rgb(231, 231, 231);
+    width: 300px;
+    padding: 10px;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+label{
+    display: block;
+    margin: 5px;
+    padding-left: 60px;
+}
+input{
+    margin-left: 63px;
+}
+#botao{
+    margin-top: 9px;
+    background-color:rgb(182, 182, 182);
+    width: auto;
+    margin-left: 32px;
+}
+#botao:hover{
+background-color: rgb(139, 139, 139);
+width:auto;
+}

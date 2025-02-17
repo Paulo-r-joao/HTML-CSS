@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(231, 231, 231);
+    margin-left: 390px;
+  }
+
+fieldset {
+    padding: 10px;
+    width: 809px;
+    background-color: rgb(226, 217, 203);
+    border-color: rgb(170, 169, 169);
+    border-radius: 20px;
+  }
+
+  .cardapio {
+    text-align: center;
+    background-color: rgb(196, 190, 183);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    width: 23%;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+  }
+
+  .item img {
+    display: block;
+    width: 186px;
+    height: 206px;
+    border-radius: 20px;
+  }
+  
+  .item p {
+    margin-top: 5px;
+  }
+

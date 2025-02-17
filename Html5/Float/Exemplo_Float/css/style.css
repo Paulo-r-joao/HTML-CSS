@@ -1,0 +1,38 @@
+.box{
+    background-color: blueviolet;
+    height:50px;
+    width:10%;
+    color:white;
+    margin-bottom: 10px;
+    /*text-aling - para alinhar as linhas*/
+    text-align: center;
+    line-height: 50px;
+    /*margin - distacia entre os elementos*/
+    margin-left:10px;
+    /*float - para flutuar os elementos*/
+    float: left;
+}
+.caixa{
+    background-color: rgb(228, 52, 52);
+    height:50px;
+    width:10%;
+    color:white;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-left:10px;
+    /*position - para apenas um elemento*/
+    position: relative;
+    /*Float - Para afastamento*/
+    top:0px;
+    float: left;
+}
+.clear{
+    /*Propriedade clear
+    Permite limpar a flutuação dos elementos
+    Valores da propriedade clear: left, right e both
+    left - Limpa os elementos flutuantes da esquerda
+    right - Limpa os elementos flutuantes da direita
+    both - Limpa os elementos da esquerda e direira*/
+    clear: left;
+}
